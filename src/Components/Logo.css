@@ -1,0 +1,32 @@
+
+@keyframes rotateLogo {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(-360deg);
+    }
+}
+
+.rotating-logo {
+    animation: rotateLogo 5s linear infinite;  
+    margin-top: 150px;
+}
+.rotating-logo:hover {
+    animation-play-state: paused; /* Stops rotating on hover */
+}
+.list{
+    /* display: flex; */
+    margin-top: 100px;
+}
+.img1,.img2,.img3{
+    margin-top: 10px;
+
+margin-right: 20px;
+
+margin-bottom: 30px;
+
+margin-left: 40px;
+
+height: 500px;
+}
